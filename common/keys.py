@@ -1,0 +1,2 @@
+VCODE = 'VCODE-%s'
+AVATAR_KEY = 'AVATAR-%s'

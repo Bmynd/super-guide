@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -71,7 +72,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'swiper',
         'USER': 'root',
-        'PSAAWORD': '123456',
+        'PASSWORD': 123456,
         'HOST': '127.0.0.1',
         'PORT': 3306,
     }
@@ -115,3 +116,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEADIA_ROOT = os.path.join(BASE_DIR, 'medias/')
